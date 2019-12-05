@@ -1,15 +1,23 @@
 package com.company;
 
 public class Car extends Vehicle {
-    public Car() {
+    public Car(String name) {
+        super(name);
     }
 
     @Override
     public void go() {
+        super.go();
+    }
 
-        System.out.println("Auto rusza");
+    @Override
+    public double getFuelNeeds() {
+        return 2000;
     }
-    void horn(){
-        System.out.println("Beep beep");
+
+    @Override
+    public double getDistance() {
+        return 400;
     }
+
 }

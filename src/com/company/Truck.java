@@ -1,7 +1,18 @@
 package com.company;
 
 public class Truck extends Car{
-    public Truck() {
+    public Truck(String name) {
+        super(name);
+    }
+
+    @Override
+    public double getFuelNeeds() {
+        return super.getFuelNeeds();
+    }
+
+    @Override
+    public double getDistance() {
+        return super.getDistance();
     }
 
     @Override
@@ -10,13 +21,4 @@ public class Truck extends Car{
         System.out.println("Ciezarowka rusza");
     }
 
-    @Override
-    void horn() {
-        super.horn();
-    }
-
-    void height()
-    {
-        System.out.println("Ciezarowka wazy 40t");
-    }
 }
