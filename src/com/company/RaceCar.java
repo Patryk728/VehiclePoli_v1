@@ -10,8 +10,4 @@ public class RaceCar extends Car {
         return super.getFuelNeeds();
     }
 
-    @Override
-    public void go() {
-        super.go();
-    }
 }

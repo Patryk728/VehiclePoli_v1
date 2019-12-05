@@ -6,11 +6,6 @@ public class Ship extends Vehicle implements Sailing{
     }
 
     @Override
-    public void go() {
-        super.go();
-    }
-
-    @Override
     public double getFuelNeeds() {
         return 200;
     }

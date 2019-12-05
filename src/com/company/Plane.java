@@ -22,11 +22,6 @@ public class Plane extends Vehicle implements Flying {
         return 400;
     }
 
-    void speed()
-    {
-        System.out.println("Samolot osiaga predkosc...");
-    }
-
     @Override
     public void takeOff() {
         System.out.println("samolot odlatule");

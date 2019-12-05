@@ -6,11 +6,6 @@ public class Car extends Vehicle {
     }
 
     @Override
-    public void go() {
-        super.go();
-    }
-
-    @Override
     public double getFuelNeeds() {
         return 2000;
     }

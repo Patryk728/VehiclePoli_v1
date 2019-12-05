@@ -10,15 +10,4 @@ public class Truck extends Car{
         return super.getFuelNeeds();
     }
 
-    @Override
-    public double getDistance() {
-        return super.getDistance();
-    }
-
-    @Override
-    public void go() {
-
-        System.out.println("Ciezarowka rusza");
-    }
-
 }
