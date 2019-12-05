@@ -7,7 +7,7 @@ public abstract class Vehicle {
     }
 
     public void go(){
-        System.out.println(toString()+" rusza ");
+        System.out.println(toString()+" rusza. Typ pojazdu: "+getClass().getSimpleName());
     }
     public void stop(){
         System.out.println("Zatrzymano "+toString());
